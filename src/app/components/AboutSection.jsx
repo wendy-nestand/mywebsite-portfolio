@@ -56,7 +56,7 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>Android App Mobile Development</li>
-        <li>Introduction to Cybersecurity</li>
+        <li>Cybersecurity</li>
         <li>Networking</li>
         <li>Web Design </li>
       </ul>

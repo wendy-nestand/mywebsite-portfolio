@@ -9,7 +9,7 @@ const projectsData = [
     id: 1,
     title: "React News App AI Powered",
     description:
-      "Web App that uses  Natural Language Processing to generate news articles.",
+      "Web App that uses  Natural Language Processing to generate news articles. |  Built using ReactJS, Material UI, NewsAPI and Alan AI.",
     image: "/images/projects/freenews.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/wendy-nestand/freenews",
@@ -19,7 +19,7 @@ const projectsData = [
     id: 2,
     title: "Social Media Web App",
     description:
-      "Elohim is a web application created with the React library, NextJs, Typescript and Sanity backend. Elohim is a social media app that allows users to connect with each other and share content related to spirituality through a variety of features such as posting, following other users, messaging and more.",
+      "Share, Watch videos, Listen Podcast and created feed. | Built using NextJs, Tailwind, Sanity CMS & Vercel.",
     image: "/images/projects/el.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/el-ohim/el-ohim",
@@ -37,7 +37,7 @@ const projectsData = [
   {
     id: 4,
     title: "Instagram Clone",
-    description: "Project 4 description",
+    description: "Share pictures and Comment. | Built using Java ",
     image: "/images/projects/instagram.webp",
     tag: ["All", "Mobile"],
     gitUrl: "https://github.com/dy-cipher/InstagramClone",
@@ -46,7 +46,7 @@ const projectsData = [
   {
     id: 5,
     title: "SimpleTweet",
-    description: "Authentication and CRUD operations",
+    description: "Twitter Clone | Built using Java, Parcel, Twitter API",
     image: "/images/projects/twitter.webp",
     tag: ["All", "Mobile"],
     gitUrl: "https://github.com/dy-cipher/SimpleTweet",
@@ -55,7 +55,8 @@ const projectsData = [
   {
     id: 6,
     title: "Flixster",
-    description: "Netflix like app ",
+    description:
+      "Netflix like app | built using Java, Android Studio and IMDB API",
     image: "/images/projects/netflix.webp",
     tag: ["All", "Mobile"],
     gitUrl: "https://github.com/dy-cipher/Flixster",
