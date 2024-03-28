@@ -9,12 +9,32 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>Node.js</li>
-        <li>Express</li>
-        <li>PostgreSQL</li>
-        <li>Sequelize</li>
-        <li>JavaScript</li>
-        <li>React</li>
+        <li>
+          Languages: Java, Python, C, C++, C#, SQL, JavaScript, TypeScript
+        </li>
+        <li>
+          Technologies: Azure, Next.js, Node.js, React, .Net, Express.js,
+          Sequilize, Bootstrap, tailwindcss, materialUI.
+        </li>
+        <li>
+          Databases: MS SQL Server, MySQL, MongoDB, PostgreSQL, Google Firebase,
+          GROC, GraphQl, SQLite3.
+        </li>
+        <li>
+          Interfaces: Git, Linux, Docker, Apache HTTP Server, RESTful APIs.
+        </li>
+        <li>
+          Software: Microsoft Azure DevOps, Postman, Notion, Trello, Asana,
+          Slack, Microsoft Office Suite.
+        </li>
+        <li>
+          Other: AI, ML, Cybersecurity, Networking, Cryptography, Azure
+          Databases & server.
+        </li>
+        <li>
+          Soft Skills: Team collaboration, problem-solving, analytical skills,
+          communication, management.
+        </li>
       </ul>
     ),
   },
@@ -57,16 +77,22 @@ const AboutSection = () => {
   return (
     <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image src="/images/about-image.png" width={500} height={500} />
+        <Image src="/images/about-image.webp" width={500} height={500} />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-teal-300 mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I am a full stack web developer with a passion for creating
-            interactive and responsive web applications. I have experience
-            working with JavaScript, React, Redux, Node.js, Express, PostgreSQL,
-            Sequelize, HTML, CSS, and Git. I am a quick learner and I am always
-            looking to expand my knowledge and skill set. I am a team player and
-            I am excited to work with others to create amazing applications.
+            I'm a dedicated Software Engineer with a deep passion for building
+            secure, efficient software solutions from the ground up. My tech
+            journey is driven by an insatiable curiosity and a strong foundation
+            in computer science, complemented by practical experience with
+            cutting-edge technologies such as Java, Python, C#, and cloud
+            computing with Microsoft Azure. My approach to technology is not
+            just about coding; it's about being part of a team where
+            collaboration, creativity, and a disciplined, teachable attitude are
+            key to overcoming challenges and driving innovation. With every
+            project, I strive to be an active learner, eagerly embracing new
+            technologies and methodologies to make a meaningful impact in the
+            tech world.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
