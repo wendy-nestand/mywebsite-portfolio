@@ -10,7 +10,7 @@ const projectsData = [
     title: "React News App AI Powered",
     description:
       "Web App that uses  Natural Language Processing to generate news articles. |  Built using ReactJS, Material UI, NewsAPI and Alan AI.",
-    image: "/images/projects/freenews.png",
+    image: "/images/projects/Freenews.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/wendy-nestand/freenews",
     previewUrl: "https://freenews-nine.vercel.app/",
